@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import doUntilAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-do-until@esm/index.mjs';
+import doUntilAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-do-until@v0.1.1-esm/index.mjs';
 ```
 
 #### doUntilAsync( fcn, predicate, done\[, thisArg ] )
@@ -215,7 +215,7 @@ function done( error ) {
 <script type="module">
 
 import repeatString from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-repeat@esm/index.mjs';
-import doUntilAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-do-until@esm/index.mjs';
+import doUntilAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-do-until@v0.1.1-esm/index.mjs';
 
 function fcn( i, next ) {
     setTimeout( onTimeout, 0 );
